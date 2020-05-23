@@ -11,5 +11,5 @@
 |
 */
 Route::get('/', 'MessagesController@index');
-// CRUD
+
 Route::resource('messages', 'MessagesController');
